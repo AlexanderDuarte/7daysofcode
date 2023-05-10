@@ -81,6 +81,11 @@ function fim() {
 
     
     bloco.innerHTML += `<p class="texto-final">Muito obrigado por jogar! :-D</p>`;
+    bloco.innerHTML += `<button id="recomecar">Jogar Novamente</button>`;
+    const btnRecomecar = document.getElementById('recomecar');
+    btnRecomecar.addEventListener('click', () => {
+        window.location.reload();
+    });
 }
 
 function exibeAreaInicial(){

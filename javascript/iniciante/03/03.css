@@ -11,6 +11,7 @@ body{
     font-weight: 500;
     background: linear-gradient(#e0e0e0,#a7a7a7);
     font-size: 1.2em;
+    text-align: center;
 }
 
 .titulo-final{
@@ -32,3 +33,19 @@ body{
 .item__lista-tecnologia{
     list-style-type: square;
 }
+
+#recomecar{
+    background-color: #1379a1;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 1em;
+    margin-top: 15px;
+    border-style: none;
+    transition: 0.5s
+}
+
+
+#recomecar:hover{
+  background-color: #608b0f;
+}
+    
