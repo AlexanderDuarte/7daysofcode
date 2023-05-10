@@ -1,0 +1,36 @@
+body{
+    background-color: #22223b;
+}
+
+#bloco{
+    max-width: 700px;
+    line-height: 1.5em;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 50px auto;
+    font-weight: 500;
+    background: linear-gradient(#e0e0e0,#a7a7a7);
+    font-size: 1.2em;
+}
+
+.titulo-final{
+    text-align: center;
+    font-weight: 700;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    background-color: #22af2a;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+}
+
+.destaque{
+    font-weight: bold;
+}
+.item__lista-tecnologia{
+    
+}
+
+.item__lista-tecnologia{
+    list-style-type: square;
+}
