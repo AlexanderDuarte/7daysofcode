@@ -142,4 +142,7 @@ body{
     background-color: var(--azul-escuro);
 }
 
+.descricao{
+    color: white;
+}
 
