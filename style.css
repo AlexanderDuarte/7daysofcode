@@ -113,7 +113,16 @@ body{
     .item__menu-niveis:hover{
         background-color: #3da364;
     }
+
+    .inativo{
+        background-color: gray;
+    }
+    
+    .inativo:hover{
+        background-color: gray;
+    }
 }
+
 
 .item__menu-niveis{
     background-color: var(--vinho);
@@ -123,6 +132,10 @@ body{
     padding: 5px;
     width: 50px;
     height: 50px;
+    
+    color: white;
+    font-size: 1.5em;
+    line-height: 1.5
 }
 
 .item__menu-niveis:hover{
@@ -131,10 +144,6 @@ body{
 
 .link-dia{
     text-decoration: none;
-    color: white;
-    margin: auto auto;
-    font-size: 1.5em;
-    line-height: 1.5
 }
 
 

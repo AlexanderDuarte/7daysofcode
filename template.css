@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500&display=swap');
 
-:root{
+:root {
     --fonte-principal: 'Montserrat', sans-serif;
     --azul-escuro: #355070;
     --azul-medio: #4e76a7;
@@ -16,23 +16,23 @@
 }
 
 
-*{
+* {
     box-sizing: border-box;
 }
 
-body{
-    font-family: var(--fonte-principal);    
+body {
+    font-family: var(--fonte-principal);
 }
 
-.titulo-template{
+.titulo-template {
     text-align: center;
-    padding:20px 0;
+    padding: 20px 0;
     font-size: 1.2em;
     font-weight: 700;
     color: var(--salmao);
 }
 
-#topo{
+#topo {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -40,7 +40,7 @@ body{
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
 }
 
-.btn-voltar{
+.btn-voltar {
     background-color: var(--azul-claro);
     text-decoration: none;
     font-weight: 500;
@@ -52,18 +52,24 @@ body{
 
 }
 
-.btn-voltar:hover{
+.btn-voltar:hover {
     background-color: var(--azul-medio);
 }
 
-.btn-voltar::before{
+.btn-voltar::before {
     content: '❮ ';
 }
 
-.btn-voltar:visited{
+.btn-voltar:visited {
     color: white;
 }
 
-.descricao__topo{
+.descricao__topo {
     color: white;
+}
+
+.campo-codigo {
+    border: none;
+    resize: none;
+    padding: 15px;
 }

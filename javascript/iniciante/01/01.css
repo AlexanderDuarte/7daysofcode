@@ -1,0 +1,23 @@
+body {
+    background-color: #fdf0d5;
+
+}
+
+#bloco {
+    width: 80vw;
+    margin: 0 auto;
+}
+
+h2 {
+    color: #780000;
+    font-size: 1.5em;
+    font-weight: 500;
+    margin: 25px 0;
+}
+
+
+.campo-codigo {
+    width: 80vw;
+    height: 500px;
+    ;
+}
