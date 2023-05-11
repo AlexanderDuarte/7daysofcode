@@ -3,7 +3,7 @@ let areaInicial = 0;
 let areaFront = 0;
 let fullstack = 0;
 let areaBack = 0;
-let aprenderMais = '';
+let aprenderMais = 1;
 let listaAprenderMais = [];
 const bloco = document.getElementById('bloco');
 
@@ -40,6 +40,13 @@ function escolhaBack() {
     escolhaMais();
 }
 
+function escolhaMais() {
+    while (aprenderMais != 2) {
+        aprenderMais = prompt('Tem mais alguma tecnologia que você gostaria de aprender? Digite [1] para OK ou [2] para terminar');
+        aprenderMais == 1 ? aprendeMais() : aprenderMais == 2 ? fim() : alert('Opção inválida! Tente novamente.');
+    }
+}
+
 function fullstackOrNotFullstack(area) {
     while (fullstack != 1 && fullstack != 2) {
         fullstack = prompt(`Você escolheu começar por ${area}. Quer continuar nessa área ou quer seguir carreira Fullstack? Digite [1] para ser Dev ${area} ou [2] para ser Dev Fullstack.}`);
@@ -47,15 +54,6 @@ function fullstackOrNotFullstack(area) {
     }
 
 }
-
-function escolhaMais() {
-    while (aprenderMais.toUpperCase() != 'SAIR') {
-        aprenderMais = prompt('Tem mais alguma tecnologia que você gostaria de aprender? Digite [ok] para confirmar ou [sair] para terminar');
-        aprenderMais.toUpperCase() == 'OK' ? aprendeMais() : aprenderMais.toUpperCase() == 'SAIR' ? fim() : alert('Opção inválida! Tente novamente.');
-    }
-}
-
-
 
 function aprendeMais() {
     const tecnologia = prompt('O que mais gostaria de aprender?');
