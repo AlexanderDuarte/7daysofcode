@@ -49,11 +49,13 @@ body {
     border-radius: 5px;
     color: white;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    transition: 0.5s;
 
 }
 
 .btn-voltar:hover {
     background-color: var(--azul-medio);
+    transition: 0.5s;
 }
 
 .btn-voltar::before {

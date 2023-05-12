@@ -23,7 +23,6 @@ while (tentativas > 0 && palpite != numeroSecreto) {
 
 function geraNumeroAleatorio() {
     const numeroGerado = Math.floor(Math.random() * (10 - 1 + 1) + 1);
-    console.log(numeroGerado);
     return numeroGerado;
 }
 

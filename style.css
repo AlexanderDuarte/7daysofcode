@@ -105,13 +105,16 @@ body{
 
 .menu-iniciante{
     background-color: var(--verde-claro);
+    transition: 0.5s;
 
     .item__menu-niveis{
         background-color: var(--verde-escuro);
+        transition: 0.5s;
     }
 
     .item__menu-niveis:hover{
         background-color: #3da364;
+        transition: 0.5s;
     }
 
     .inativo{
